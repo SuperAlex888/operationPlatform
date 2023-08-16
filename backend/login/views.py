@@ -9,6 +9,7 @@ def login(request):
     cfs_token = get_token(request)
 
 
+
     if request.method == 'POST':
 
         account = request.POST.get('account')
